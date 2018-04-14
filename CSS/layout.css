@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #448aca;
+}
+
+body {
+    max-width: 640px;
+    min-width: 420px;
+    margin: 0 auto;
+    font: 14px/1.5 Helvetica, sans-serif;
+    background: #b5d5e9;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    align-items: center;
+    -webkit-align-items: center;
+    text-align: center;
+}
+
+header {
+    background:
+            url("../images/飘带-l.png") 0 74px no-repeat,
+            url("../images/飘带-r.png") 100% 150px no-repeat,
+            url("../images/header-bg1.png") 28px 35px no-repeat,
+            url("../images/气球-r.png") 100% 10px no-repeat,
+            url("../images/header-bg3.png") 85% 40px no-repeat,
+            url("../images/header-bg2.png") 50px 210px no-repeat,
+            url("../images/气球-l.png") 0 180px no-repeat,
+            url("../images/花瓣-l.png") 0 0 no-repeat,
+            url("../images/花瓣-r.png") 96% 185px no-repeat,
+            url("../images/header-bg4.png") 97% 194px no-repeat,
+            url("../images/header-bg.png") 50% 0 no-repeat
+    ;
+}
+
+.logo {
+    padding: 5.4rem 0 0;
+    display: inline-flex;
+    font-family: "Heiti SC", serif;
+}
+
+.logo a {
+    color: #000;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.w-logo {
+}
+
+.w-right {
+    margin: 0 1.9rem 0 0.6rem;
+}
+
+.w-right h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.w-right h3 {
+    font-size: 1.38rem;
+    line-height: 1.38rem;
+    margin: 0.3rem 0 0;
+}
+
+.description {
+    font-family: STHeiti, serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #eb2043;
+    margin: 10px 0;
+}
+
+.ad {
+    background: url("../images/新用户注册即送150元红包.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.ad p {
+    display: block;
+    font-size: 2.25rem;
+    height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.ticket {
+    border: #b5d5e9 solid 0.2rem;
+    border-left: none;
+}
+
+.ad, .ticket img {
+    width: 100%;
+}
+
+.recommend {
+    height: 55px;
+    width: 100%;
+    border: #b5d5e9 solid 0.2rem;
+    background: #fe7c7c;
+    font-size: 1.4rem;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Heiti SC", serif;
+}
+
+.goods {
+    display: -webkit-flex;
+    display: flex;
+    height: 20.1rem;
+    width: 100%;
+    background: #b5d5e9;
+    overflow: hidden;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.good {
+    width: 33.3%;
+    min-width: 12.3rem;
+    position: relative;
+    height: 10rem;
+    display: inline-block;
+    background: white;
+    overflow: hidden;
+    border: #b5d5e9 solid 0.05rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-order: 1;
+    order: 1;
+}
+
+.good:first-child {
+    height: 20rem;
+    order: 0;
+}
+
+.good a {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.good img {
+    position: absolute;
+    left: 1rem;
+    bottom: 0.6rem;
+    width: 5.5rem;
+}
+
+.good:first-child img {
+    position: absolute;
+    top: 3.4rem;
+    width: 11rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.good-r {
+    position: absolute;
+    width: 5.5rem;
+    bottom: 4.2rem;
+    right: 0.7rem;
+}
+
+.look {
+    position: absolute;
+    width: 5.5rem;
+    border: #448aca solid 0.1rem;
+    border-radius: 2rem;
+}
+
+.good:first-child .good-r {
+    position: absolute;
+    text-align: center;
+    width: 7.6rem;
+    bottom: 3.1rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+}
+
+.good:first-child .look {
+    position: absolute;
+    width: 7.6rem;
+    border-radius: 2rem;
+}
+
+.more {
+    width: 100%;
+    height: 13.8rem;
+    background: #ffffff;
+    border: #b5d5e9 solid 0.05rem;
+    border-radius: 0.5rem;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column nowrap;
+    -webkit-flex-flow: column nowrap;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.goods-l {
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.good-l {
+    padding: 0 0.8rem;
+    height: 152px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.goods-l img {
+    width: 7rem;
+    text-align: center;
+}
+
+.download {
+    background: #fe7c7c;
+    width: 8.6rem;
+    text-align: center;
+    border-radius: 2rem;
+    -moz-box-shadow: 1px 1px 6px #666666;
+    -webkit-box-shadow: 1px 1px 6px #666666;
+    box-shadow: 1px 1px 6px #666666;
+}
+
+.download a {
+    font-size: 16px;
+    line-height: 2rem;
+    font-family: Hei, serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.info{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 3.5rem;
+    font-family: Hei, serif;
+    font-weight: 400;
+    color: #595757;
+    background: url("../images/footer-bg.png") no-repeat 50% 0;
+}
+
+
+
+
+
